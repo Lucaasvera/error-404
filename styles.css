@@ -85,9 +85,10 @@ footer {
 
 @media screen and (max-width: 800px) {
   img {
-    block-size: auto;
-    inline-size: auto;
-    text-align: center;
+    block-size: 238px;
+    inline-size: 287px;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
   }
   .title404 {
     margin-top: 20px;
@@ -116,7 +117,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    /* align-items: center; */
+    align-items: center;
 
     margin-left: 0;
     margin-top: 64px;
