@@ -75,9 +75,62 @@ footer p {
 }
 .button {
   margin-block-start: 28px;
+  cursor: pointer;
 }
 footer {
   text-align: center;
   margin-block-start: 308px;
   margin-block-end: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    block-size: auto;
+    inline-size: auto;
+    text-align: center;
+  }
+  .title404 {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 71px;
+    width: 360px;
+    height: 142px;
+    display: inline-block;
+  }
+  main p:first-of-type {
+    font-size: 18px;
+    line-height: 26.66px;
+    width: 328px;
+    height: 81px;
+    display: inline-block;
+  }
+  .button {
+    display: inline-block;
+    padding: 24px 43px 23px;
+    margin-block-start: 36px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    /* align-items: center; */
+
+    margin-left: 0;
+    margin-top: 64px;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: left;
+    margin-inline-start: 24px;
+  }
+  footer {
+    text-align: center;
+    margin-block-start: 114px;
+    margin-block-end: 24px;
+  }
 }
